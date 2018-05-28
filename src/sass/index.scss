@@ -1,0 +1,15 @@
+$dark-gray: #1d1d1d;
+$valor-yellow: #ffd450;
+
+@import "~materialize-css/sass/components/color-variables";
+$primary-color: $dark-gray !default;
+$secondary-color: $valor-yellow !default;
+@import '~materialize-css/sass/materialize';
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
